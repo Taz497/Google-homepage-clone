@@ -4,7 +4,34 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="src/style.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="icon" href="src/logo.png" type="image/x-icon" />
+    <script defer src="src/index.js"></script>
     <title>Foogle</title>
   </head>
-  <body></body>
+  <body>
+    <nav>
+      <ul>
+        <li class="underline option_text">Gmail</li>
+        <li class="underline option_text">Images</li>
+        <li class="google_apps_container">
+          <span class="material-symbols-outlined">apps</span>
+          <span class="tooltip_1">google apps</span>
+        </li>
+        <li>
+          <span class="material-symbols-outlined"> account_circle </span>
+        </li>
+      </ul>
+    </nav>
+    <section class="foogle_container"><p class="foogle">Foogle</p></section>
+    <section class="search_container">
+      <span class="material-symbols-outlined search"> search </span>
+      <input type="text" id="search" maxlength="50" />
+      <span class="material-symbols-outlined camera"> camera </span>
+    </section>
+  </body>
 </html>
