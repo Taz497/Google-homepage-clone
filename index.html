@@ -16,22 +16,27 @@
   <body>
     <nav>
       <ul>
-        <li class="underline option_text">Gmail</li>
-        <li class="underline option_text">Images</li>
-        <li class="google_apps_container">
-          <span class="material-symbols-outlined">apps</span>
-          <span class="tooltip_1">google apps</span>
+        <li class="underline option_text nav_text">Gmail</li>
+        <li class="underline option_text nav_text">Images</li>
+        <li class="google_options_container" id="apps_container">
+          <span class="material-symbols-outlined option_bg">apps</span>
+          <span class="tooltip" id="apps">google apps</span>
         </li>
-        <li>
-          <span class="material-symbols-outlined"> account_circle </span>
+
+        <li class="google_options_container" id="account_container">
+          <span class="material-symbols-outlined option_bg">
+            account_circle
+          </span>
+          <span class="tooltip account" id="account">your account</span>
         </li>
       </ul>
     </nav>
     <section class="foogle_container"><p class="foogle">Foogle</p></section>
     <section class="search_container">
-      <span class="material-symbols-outlined search"> search </span>
+      <span class="material-symbols-outlined" id="search_icon"> search </span>
       <input type="text" id="search" maxlength="50" />
-      <span class="material-symbols-outlined camera"> camera </span>
+      <span class="material-symbols-outlined" id="camera_icon"> camera </span>
+      <span class="tooltip" id="camera">search by camera</span>
     </section>
   </body>
 </html>
