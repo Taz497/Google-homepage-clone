@@ -8,6 +8,8 @@
   --subBg3: #444446;
 }
 
+/* All elements */
+
 * {
   background-color: #202124;
   color: var(--primaryText);
@@ -16,6 +18,8 @@
   font-size: 1rem;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Main body */
 
 body {
   box-sizing: border-box;
@@ -38,14 +42,6 @@ body {
 
 .hide {
   visibility: hidden !important;
-}
-
-/* Options */
-
-.option_text {
-  height: 15px;
-  font-size: 0.9rem;
-  margin-top: 4px;
 }
 
 /* Navigation bar */
@@ -73,6 +69,12 @@ nav ul li {
   height: 60%;
 }
 
+.option_text {
+  height: 15px;
+  font-size: 0.9rem;
+  margin-top: 4px;
+}
+
 .nav_text {
   padding-top: 7px;
 }
@@ -97,7 +99,6 @@ nav ul li {
   visibility: hidden;
   min-width: 90px;
   width: 0;
-
   min-height: 7px;
   background-color: var(--subBg);
   color: var(--primaryText);
@@ -116,7 +117,7 @@ nav ul li {
   left: -75px;
 }
 
-/* Search Bar */
+/* Foogle */
 
 .foogle_container {
   width: 100%;
@@ -189,7 +190,7 @@ nav ul li {
   background-color: var(--subBg2);
 }
 
-/* Bottom section */
+/* Bottom options */
 
 .bottom_options {
   width: 100vw;
@@ -233,7 +234,7 @@ nav ul li {
   border-color: var(--subBg);
 }
 
-/* Lang section */
+/* Language info */
 
 .lang {
   margin-top: 20px;
@@ -292,7 +293,6 @@ nav ul li {
 .ul_li_fixed {
   cursor: pointer;
   margin: 15px;
-
   height: 15px;
   border-bottom: solid 1px transparent;
   background-color: #171717;
@@ -310,13 +310,16 @@ nav ul li {
 
 .footer_bottom_ul1 {
   width: 50%;
+  min-width: 400px;
   display: flex;
   list-style-type: none;
   background-color: #171717;
 }
 
 .footer_bottom_ul2 {
-  width: 50%;
+  overflow: hidden;
+  width: 40%;
+  min-width: 80px;
   display: flex;
   justify-content: flex-end;
   list-style-type: none;
